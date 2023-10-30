@@ -9,7 +9,7 @@ import Notfound from '../Notfound/Notfound.jsx';
 import Footer from '../Footer/Footer.jsx';
 import Home from '../Home/Home.jsx';
 import './App.css';
-import { Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import JwtDecode from 'jwt-decode';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
