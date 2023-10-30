@@ -1,0 +1,27 @@
+.styleBorder{
+  border: 25px groove #333;
+  height: 800px;
+  border-radius: 25px;
+}
+.positionImg{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  z-index: 155555;
+}
+.icreaseWidth{
+  width: 106%;
+  height: 103%;
+  border-radius: 22px;
+}
+.icreaseWidth:hover{
+  filter: brightness(1.25);
+}
+.styleDevText{
+  border-radius: 15px;
+}
+@media screen and (max-width:650px){
+  .styleBorder{
+    height: 600px;
+  }
+}

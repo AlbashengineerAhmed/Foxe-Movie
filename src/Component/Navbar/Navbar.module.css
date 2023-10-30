@@ -1,0 +1,99 @@
+@media screen  and(max-width:992px){
+
+}
+.navStyle{
+  color: rgb(184, 184, 184);
+  text-decoration: none;
+  width: 200px;
+  font-style: italic;
+  transition: all 0.2s ease-in;
+  text-align: left;
+}
+.navLogout{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.indexNav{
+  z-index: 1888888;
+}
+li{
+  text-align: left;
+}
+.colorVB{
+  background-color: #082032;
+}
+.logoSite{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-style: italic;
+  transition: all 0.4s ease-in;
+}
+.logoSite:hover{
+  letter-spacing: 0.2rem;
+  font-size: 30px !important;
+  font-weight: 900;
+  color: rgba(250, 250, 250, 0.911);
+  text-shadow: tomato 2px 2px 10px;
+
+}
+.logoWidth{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+  height: 40px;
+}
+.widthFixed{
+  width: 90px;
+  height: 30px;
+}
+.socialLink{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 3px;
+}
+.icon1:hover{
+  color: #0055ff;
+}
+.icon2:hover{
+  color: #833AB4;
+}
+.icon3:hover{
+  color: #009dff;
+}
+.icon4:hover{
+  color: #FF0000;
+}
+.navStyle:hover{
+  color: rgb(250, 140, 120);
+  border-radius: 10%;
+  font-size: 23px;
+}
+.widthLogin{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+.navStyle1{
+  color: rgb(184, 184, 184);
+  text-decoration: none;
+  margin: 0px 5px;
+  font-style: italic;
+}
+.navStyle1:hover{
+  color: rgb(245, 8, 8);
+}
+.navStyle2:hover{
+  color: green;
+}
+.widthForm{
+  display: flex;
+  justify-content: space-between;
+  width:350px;
+}

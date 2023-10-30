@@ -1,0 +1,26 @@
+.shadow{
+  position: absolute;
+  background-color: rgba(0, 0, 0,0.5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.colorIcon{
+  color: #ffffff;
+  
+}
+.color{
+  color: white;
+  z-index: 155555;
+}
+
+.colorUser{
+  width: 140px;
+  height: 140px;
+  background-color: #010633;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
