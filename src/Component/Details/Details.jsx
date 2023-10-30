@@ -9,12 +9,14 @@ export default function Details({ route }) {
   let [searchParam, setSearchParam] = useSearchParams();
   let [details, setDetails] = useState({});
   let currentId = searchParam.get('id');
+  let mediaType = searchParam.get('type');
+
   let Navigate = useNavigate();
 
   async function getDetails() {
     try {
       const { data } = await axios.get(
-        `https://api.themoviedb.org/3/movie/${currentId}?api_key=4be83514e5b9ccda4ef2b5c97f53ed3f&language=en-US`
+        `https://api.themoviedb.org/3/${mediaType}/${currentId}?api_key=4be83514e5b9ccda4ef2b5c97f53ed3f&language=en-US`
       );
       setDetails(data);
     } catch (error) {

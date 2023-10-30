@@ -90,7 +90,7 @@ li{
   color: rgb(245, 8, 8);
 }
 .navStyle2:hover{
-  color: green;
+  color: orange;
 }
 .widthForm{
   display: flex;

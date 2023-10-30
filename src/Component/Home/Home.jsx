@@ -13,7 +13,7 @@ export default function Home() {
   async function getTrendingItems(mediaType,callback) {
     let {data} = await axios.get(`https://api.themoviedb.org/3/trending/${mediaType}/day?api_key=4be83514e5b9ccda4ef2b5c97f53ed3f`);
     callback(data.results);
-    console.log(data);
+    // console.log(data);
   }
 
   useEffect(()=>{
@@ -23,12 +23,11 @@ export default function Home() {
   },[])
 
   let Navigate = useNavigate();
-  function goToDetails(id){
+  function goToDetails(id,mediaType){
     // alert(id)
     Navigate({
       pathname:"/details",
-      search:`?id=${id}` 
-      // type : `${type}`,
+      search: `?id=${id}&type=${mediaType}` 
     })
   }
 

@@ -9,6 +9,7 @@ export default function Movies() {
   let [trendingTvShows,setTrendingTvShows]=useState([]);
   async function getTrendingTvShows() {
     let {data} = await axios.get(`https://api.themoviedb.org/3/trending/tv/day?api_key=4be83514e5b9ccda4ef2b5c97f53ed3f`);
+    console.log(data);
     setTrendingTvShows(data.results)
   }
   let Navigate = useNavigate();
